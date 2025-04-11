@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import db from "../database/db.js"; 
 import jwt from "jsonwebtoken";
 import { JWT_SECRET } from "../config.js";
