@@ -3,10 +3,13 @@ import authRoutes from './routes/authRoutes.js';
 import reservationRoutes from './routes/reservationRoutes.js'
 import cors from 'cors';
 import dotenv from 'dotenv';
+import {PORT} from './config.js';
 dotenv.config();
 const app = express();
-const port = 5000;
 
+
+const port = PORT;
+// console.log
 
 app.use(cors());
 
